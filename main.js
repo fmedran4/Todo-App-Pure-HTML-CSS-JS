@@ -23,9 +23,9 @@ newText.addEventListener('keyup', event => {
   }
 });
 
-const move = (element, distination) => {
+const move = (element, destination) => {
   if (element.localName == 'li') {
-    desitnation.appendChild(element);
+    destination.appendChild(element);
   }
 };
 
